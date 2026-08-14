@@ -72,7 +72,3 @@ outside an evaluation harness.
 | `0` | The verifier returned `passed: true`. |
 | `1` | The iteration limit was reached. |
 | Other non-zero | Duo or Codex failed before a verdict. |
-
-For DeepSWE, the Pier adapter lives in
-`ants-deepswe-bench/duo_agent.py`. It uploads the wheel from `dist/` into each
-task and saves this output as `agent/duo.txt`.
