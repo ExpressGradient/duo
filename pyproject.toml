@@ -1,0 +1,29 @@
+[project]
+name = "duo"
+version = "0.1.0"
+description = "A Codex developer and private verifier loop"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+keywords = ["agents", "codex", "developer-tools", "verification"]
+authors = [
+    { name = "ExpressGradient", email = "johndoeknown@protonmail.com" },
+]
+dependencies = [
+    "openai-codex>=0.144.4",
+]
+
+[project.urls]
+Homepage = "https://github.com/ExpressGradient/duo"
+Repository = "https://github.com/ExpressGradient/duo"
+Issues = "https://github.com/ExpressGradient/duo/issues"
+
+[project.scripts]
+duo = "main:main"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"

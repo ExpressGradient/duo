@@ -1,0 +1,7 @@
+{
+  "include": ["main.py"],
+  "exclude": ["build", "dist", ".venv"],
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.13"
+}
